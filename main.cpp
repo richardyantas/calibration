@@ -9,6 +9,7 @@ g++ -std=c++11 -O3 main.cpp addfunctions.cpp `pkg-config opencv --cflags --libs`
 
 
 cv::Mat frame;
+
 int patternType = RINGS_GRID; // Tipo de Patrón empleado (Ver Enum en includes)
 //int patternType = ASYMMETRIC_CIRCLES_GRID; // Tipo de Patrón empleado (Ver Enum en includes)
 cv::Size imgPixelSize = Size(640,480); // Tamaño de la imagen
